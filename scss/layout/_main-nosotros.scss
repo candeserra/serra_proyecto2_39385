@@ -1,0 +1,69 @@
+.enrectnosotros {
+    background-color: #183A1D;
+    border-radius: 50px;
+    height: 450px;
+    width: 90%;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+
+}
+
+.sobrecafecito {
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    color:#E1EEDD;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 100%;
+    position: relative;
+    margin-top: 10%;
+
+}
+
+strong {
+    font-family: "Inter bold", sans-serif;
+
+}
+
+.fraseunonosotros {
+    position: relative;
+    margin-top: 2%;
+}
+
+.frasedosnosotros {
+    position: relative;
+    margin-top: 1,7%;
+}
+
+.parrafonosotrosuno {
+    font-family: "Inter bold", sans-serif;
+    font-weight: 1000;
+    color:#183A1D;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 150%;
+    text-align: justify;
+    position: relative;
+    margin-top: 3%;
+    line-height: 150%;
+}
+
+.parrafonosotrosdos {
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    color:#183A1D;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 150%;
+    position: relative;
+    margin-top: 3%;
+
+    line-height: 150%;
+}

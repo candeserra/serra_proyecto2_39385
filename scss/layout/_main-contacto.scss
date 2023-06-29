@@ -1,0 +1,97 @@
+.contacto {
+    background-color: #183A1D;
+    border-radius: 50px;
+    height: 650px;
+    width: 90%;
+    position: sticky;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    
+    .contactoparrafo {
+        font-family: "Inter", sans-serif;
+        font-weight: 100;
+        color:#E1EEDD;
+        text-align: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 100%;
+        position: relative;
+        margin-top: 13%;
+    
+    }
+    
+    .listacontacto {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        justify-content: space-evenly;
+    
+        .locationicon {
+                width: 30%;
+                position: relative;
+                margin-left: 33%;
+                margin-top: 30%;
+            }
+
+    .direccion {
+        font-family: "Inter", sans-serif;
+        font-weight: 100;
+        color:#E1EEDD;
+        text-align: center;
+        font-size: 100%;
+        margin-top: 20%;
+    
+    }
+    
+    .diredos {
+        font-family: "Inter", sans-serif;
+        font-weight: 100;
+        color:#E1EEDD;
+        text-align: center;
+        font-size: 100%;
+        margin-top: 3%;
+        margin-left: 50px;
+    }
+    
+    .phoneicon {
+        width: 70%;
+        position: relative;
+        margin-left: -10%;
+        margin-top: 80%;
+    }
+
+    .numero {
+        font-family: "Inter", sans-serif;
+        font-weight: 100;
+        color:#E1EEDD;
+        text-align: center;
+        font-size: 100%;
+        margin-top: 60%;
+        margin-left: -35%;
+    }
+    .mailicon {
+        width: 40%;
+        position: relative;
+        margin-left: 5%;
+        margin-top: 45%;
+    }
+    .mail {
+        font-family: "Inter", sans-serif;
+        font-weight: 100;
+        color:#E1EEDD;
+        text-align: center;
+        font-size: 100%;
+        margin-top: 30%;
+        margin-left: -45%;
+    }
+    
+    }
+
+}
+
+

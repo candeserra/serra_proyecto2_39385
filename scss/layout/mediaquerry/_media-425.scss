@@ -1,0 +1,271 @@
+@media (max-width: 425px) {
+
+// Nav //
+
+    .auno {
+        font-size: 70%;
+
+    }
+
+    .menuuno {
+        display: none;
+        flex-direction: wrap;
+
+    }
+
+// Footer //
+
+footer {
+    height: 100px;
+    margin-top: 5%;
+
+    .logodos {
+        display: none;
+        }
+        
+        
+    .redes {
+        width: 50%;
+        margin-left: 8%;
+        margin-top: 8%;
+        }
+        
+    .menudos {
+        font-size: 70%;
+        margin-top: 13%;
+        margin-left: -130px;
+    }
+
+}
+
+// Home //
+
+.home {
+    height: 300px;
+    margin-top: 6%;
+}
+
+    .fraseuno {
+    font-size: 120%;
+    margin-top: 22%;
+    }
+
+    h1 { 
+        font-size: 120%;
+        flex-wrap: wrap;
+        margin-top: 10%;
+        }
+
+    h2 { 
+    font-size: 120%;
+    margin-top: 1%;
+    }
+
+    .parrafohome {
+    font-size: 80%;
+    margin-top: 5%;
+    }
+
+// Nosotros //
+
+.enrectnosotros {
+    height: 230px;
+    margin-top: 5%;
+}
+
+.sobrecafecito {
+    margin-top: 17%;
+    margin-bottom: 3%;
+}
+    .parrafonosotrosuno {
+    font-size: 70%;
+    margin-top: 5%;
+    }
+    
+    .parrafonosotrosdos {
+    font-size: 70%;
+    margin-top: 3%;
+    }
+
+// Locales //
+
+.localesfont {
+    font-size: 70%;
+}
+
+.localesfontdos {
+    font-size: 60%;
+}
+
+.fotopalermo {
+    margin-left: auto;
+    margin-top: 1%;
+}
+
+.fotosantelmo {
+    margin-left: auto;
+    margin-top: 1%;
+}
+
+
+// Menu //
+
+.rectmenuuno{
+    height: 85%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+}
+.rectmenudos {
+    height: 85%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+}
+.cafecaliente {
+    grid-column: 1 / 2;
+    width: 27%;
+    margin-top: 1.5em;
+    margin-left: 4em;
+}
+.menuarriba {
+    font-size: 65%;
+    margin-bottom:4%;
+}
+.menuabajo {
+    font-size:60%;
+    margin-bottom: 4%;
+}
+.unity {
+    margin-bottom: 15%;
+}
+
+.columna11 {
+    grid-column: 2 / 3;
+    grid-row: 1;
+    text-align: left;
+    margin-top: 17%;
+    margin-left: -25%;
+}
+
+.columna12 {
+    grid-column: 2 / 3;
+    grid-row: 2;
+    text-align: left;
+    margin-top: 17%;
+    margin-left: -25%;
+}
+
+.columna21 {
+    grid-column: 2 / 3;
+    grid-row: 1;
+    margin-top: 17%;
+    text-align: left;
+    margin-left: -25%;
+
+}
+
+.columna22 {
+    grid-column: 2 / 3;
+    grid-row: 2;
+    text-align: left;
+    margin-top: 17%;
+    margin-left: -25%;
+}
+
+// Locales //
+
+.locales {
+    grid-template-columns: none;
+    
+    .backlocaluno {
+        height: 340px;
+        margin-left: 30px;
+    }
+    
+    .backlocaldos {
+        height: 340px;
+        margin-left: 30px;
+    }
+
+    .localesfont {
+        font-size: 70%;
+    }
+
+    .localesfontdos {
+        font-size: 60%;
+    }
+
+}
+
+// Contacto //
+
+.contacto {
+    height: 600px;
+    margin-top: 5%;
+
+    
+    .contactoparrafo {
+        font-size: 80%;
+        margin-left: 20%;
+        margin-top: 20%;
+    
+    }
+    
+    .listacontacto {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: space-evenly;
+        margin-top: 5%;
+    
+        .locationicon {
+                width: 15%;
+                position: relative;
+                margin-left: 42%;
+                margin-top: 10%;
+            }
+
+    .direccion {
+        font-size: 80%;
+        margin-top: 5%;
+    
+    }
+    
+    .diredos {
+        font-size: 80%;
+        margin-top: 3%;
+        margin-left: 33%;
+    }
+    
+    .phoneicon {
+        width: 14%;
+        position: relative;
+        margin-left: 43%;
+        margin-top: 10%;
+    }
+
+    .numero {
+        font-size: 80%;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+    .mailicon {
+        width: 14%;
+        position: relative;
+        margin-left: 43%;
+        margin-top: 10%;
+    }
+    .mail {
+        font-size: 80%;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+    
+    }
+
+}
+
+}
+

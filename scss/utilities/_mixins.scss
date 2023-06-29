@@ -1,0 +1,7 @@
+@mixin font ($type, $col, $wei, $size){
+    font-family: $type, sans-serif;
+    color: $col;
+    font-weight: $wei;
+    text-align: center;
+    font-size: $size;
+}

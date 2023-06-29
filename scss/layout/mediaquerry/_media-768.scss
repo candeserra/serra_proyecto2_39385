@@ -1,0 +1,188 @@
+@media (max-width: 768px) {
+    
+// Nav //
+    nav {
+        flex-wrap: wrap;
+    }
+    .logo {
+    margin-left: 15%;
+    }
+
+
+// Footer //
+
+footer {
+    height: 40%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    .logodos {
+        margin-top: 30%;
+        font-size: 150%;
+        margin-left: 35%;
+        margin-right: 0%;
+    }
+    .redes {
+    margin-left: 140%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    width: 50%;
+    }
+    
+
+    .menudos {
+        font-size: 80%;
+    }
+
+}
+
+.ados {
+    margin-left: 170%;
+    margin-right: 10%;
+}
+
+
+// Home //
+    .home {
+        height: 370px;
+    }
+    h1 {
+    font-size: 200%;
+    }
+    h2 { 
+    font-size: 200%;
+    margin-top: 0%;
+    }
+    .parrafohome {
+    font-size: 90%;
+    margin-top: 5%;
+    }
+
+// Nosotros //
+
+.enrectnosotros {
+    height: 320px;
+}
+.sobrecafecito {
+    margin-top: 15%;
+}
+    .parrafonosotrosuno {
+    font-size: 100%;
+    margin-top: 5%;
+    }
+    .parrafonosotrosdos {
+    font-size: 100%;
+    margin-top: 3%;
+    }
+
+// Menu //
+
+.rectmenuuno{
+    height: 50%;
+}
+.rectmenudos {
+    height: 50%;
+}
+.menuarriba {
+    font-size: 70%;
+    margin-bottom: 3%;
+}
+.menuabajo {
+    font-size: 60%;
+    margin-bottom: 3%;
+}
+.unity {
+    margin-bottom: 23%;
+}
+
+.cafecaliente {
+    width: 30%;
+    margin-left: 4em;
+    margin-top: 2em;
+
+}
+
+// Locales //
+
+.locales {
+
+    .backlocaluno {
+        height: 97%;
+    }
+    
+    .backlocaldos {
+        height: 97%;
+    }
+
+    .localesfont {
+        font-size: 80%;
+    }
+
+    .localesfontdos {
+        font-size: 70%;
+    }
+
+}
+
+
+// Contacto //
+
+.contacto {
+    height: 400px;
+
+    
+    .contactoparrafo {
+        font-size: 90%;
+    
+    }
+    
+    .listacontacto {
+
+        .locationicon {
+                width: 23%;
+                margin-left: 40%;
+                margin-top: 25%;
+            }
+
+    .direccion {
+        font-size: 70%;
+        margin-top: 10%;
+        margin-left: 3%;
+    
+    }
+    
+    .diredos {
+        font-size: 70%;
+        margin-top: 3%;
+        margin-left: 65px;
+    }
+    
+    .phoneicon {
+        width: 60%;
+        margin-left: -30%;
+        margin-top: 80%;
+    }
+
+    .numero {
+        font-size: 70%;
+        margin-top: 40%;
+        margin-left: -83%;
+    }
+    .mailicon {
+        width: 40%;
+        position: relative;
+        margin-left: 0%;
+        margin-top: 45%;
+    }
+    .mail {
+        font-size: 70%;
+        margin-top: 23%;
+        margin-left: -56%;
+    }
+    
+    }
+
+}
+
+}
